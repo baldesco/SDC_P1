@@ -46,7 +46,7 @@ The pipeline previously defined was slightly modified to be used in videos. An a
 
 Bellow, I show an output video, after applying this function:
 
-<video width="480" height="270" controls src="test_videos_output/solidWhiteRight.mp4" />
+<img src="test_videos_output/gifs/1.gif">
 
 ### 3. Improve the draw_lines() function
 
@@ -60,7 +60,7 @@ In order to draw a single line on the left and right lanes, I modified the **dra
 
 Here is the result of applying this new version of the function to a video:
 
-<video width="480" height="270" controls src="test_videos_output/solidYellowLeft.mp4" />
+<img src="test_videos_output/gifs/2.gif">
 
 
 ### 4. Optional Challenge
@@ -69,7 +69,7 @@ The main difference with the challenge video is that the dimensions of it frames
 
 To adjust the parameters, I first captured several frames of the challenge video. With these frames I was able to determine the vertices of the new region of interest. Bellow, I show my result on the challenge video.
 
-<video width="480" height="270" controls src="test_videos_output/challenge.mp4" />
+<img src="test_videos_output/gifs/3.gif">
 
 ### 5. Potential shortcomings and possible improvements
 
